@@ -10,7 +10,7 @@ import { JwtStrategy } from './jwt.strategy';
 @Module({
   imports: [
     JwtModule.register({
-      secret: 'topSecret51',
+      secret: 'SecretSecretSecret',
       signOptions: {
         expiresIn: 3600,
       }
